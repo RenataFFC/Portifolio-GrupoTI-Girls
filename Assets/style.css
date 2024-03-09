@@ -1,0 +1,420 @@
+:root {
+  --primary: #CCD6F6;
+  --secondary: #ECEDEF;
+  --tertiary: #64FFDA;
+  --quaternary: #0A192F;
+  --quinary: #20385A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: var(--quaternary);
+}
+
+/* Cabeçalho */
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 44px;
+  top: 18px;
+  margin: 20px;
+  padding: 0px 31px 0px 40px;
+  gap: 330px;
+}
+
+.logo {
+  width: 156px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43.57px;
+  color: var(--primary);
+}
+
+.navbar {
+  display: flex;
+  width: 400px;
+  justify-content: flex-start;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-link {
+  padding: 20px;
+  color: var(--secondary);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Apresentação */
+.presentation-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  gap: 50px;
+  padding: 24px;
+}
+
+.presentation-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 1034px;
+  height: 474px;
+  margin: 24px;
+}
+
+
+.presentation-text {
+  display: flex;
+  justify-content: start;
+  width: 480px;
+  flex-direction: column;
+}
+
+h1 {
+  color: var(--primary);
+  font-size: 50px;
+  line-height: 88px;
+  font-family: Inter;
+}
+
+h3 {
+  font-size: 24px;
+  color: var(--secondary);
+}
+
+P {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--secondary);
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+span {
+  color: var(--tertiary)
+}
+
+.profile-image-container {
+  width: 400px;
+  height: 410px;
+  flex-shrink: 0;
+  border: 3px solid var(--tertiary);
+  border-radius: 16px;
+}
+
+
+.profile-image {
+  width: 400px;
+  height: 410px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  /*background: url(<path-to-image>), lightgray 0px -59.319px / 100% 145.968% no-repeat;*/
+  margin: 7px 0px 0px -14px;
+  border: 3px solid var(--primary);
+}
+
+/*Sobre*/
+
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  top: 220px;
+  padding: 24px;
+}
+
+
+.content-title-global {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 1034px;
+   margin: 24px;  
+}
+
+.title-global {
+  width: 203px;
+  color: var(--primary);
+  font-size: 40px;
+  text-align: justify;
+}
+
+.linha-global {
+  width: 700px;
+  border: 0.5px solid var(--tertiary);
+  margin: 25px;
+}
+
+.container-about {
+  display: flex;
+  justify-content: center;
+  width: 1034px;
+  margin: 24px;
+  gap: 40px;
+}
+
+.content-about-text {
+  width: 480px;
+  height: 116px;
+  gap: 40px;
+}
+
+.Curriculo {
+  margin-top: 10px;
+}
+
+.Curriculo a {
+  background-color: var(--secondary);
+  color: var(--quaternary);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 7px;
+  border-radius: 8px;
+}
+
+.container-tecnologias {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-tecnologias {
+  display: flex;
+  width: 380px;
+  margin-top: 20px;
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+  color: var(--secondary);
+}
+
+.fa-angles-right {
+  width: 20px;
+  height: 20px;
+  color: var(--tertiary);
+  margin-right: 5px;
+}
+
+.content-social {
+  margin-top: 20px;
+}
+
+a {
+  width: 32px;
+  height: 32px;
+  color: var(--tertiary);
+  padding: 5px;
+}
+
+/* Projetos*/
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.container-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 25px;
+  gap: 64px;
+}
+
+.img-projet-1 {
+  width: 440px;
+  height: 280px;
+}
+
+.container-stacks {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 480px;
+  height: 250px;
+  padding: 24px;
+}
+
+h3.container-stacks {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 700;
+}
+
+p.container-stacks {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+ul.list-stacks {
+  display: flex;
+  width: 480px;
+  gap: 8px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+li.listStacks {
+  width: 80px;
+  height: 22px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--quaternary);
+  font-size: 13px;
+  font-weight: 400;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+.link-projects {
+  color: var(--primary);
+  font-size: 14px;  
+  font-weight: 400;
+ 
+}
+
+.contacts-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   flex-direction: column;
+   gap: 60px;
+}
+
+.container-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1034px;
+  margin: 24px; 
+  gap: 86px;
+}
+
+.content-list-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 130px;
+  height: 128px;
+}
+
+.IconeContato {
+  width: 64px;
+  height: 64px;
+  color: var(--tertiary);
+
+  border-radius: 50px;
+}
+
+/*.fa-solid {
+  margin-bottom: 5px;
+}*/
+
+.content-list-contacts a {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: var(--quinary);
+  border-radius: 50%;
+}
+
+.icon i {
+  width: 32px;
+  height: 32px;
+}
+
+.ListaContactos p {
+  margin-top: 5px;
+}
+
+/*Rodape*/
+
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 90px;
+  width: 100%;
+  border-top: 1px solid var(--tertiary);
+}
+
+.footer-text p {
+  font-size: 16px;
+
+}
+
+
+
+
+
+
+/*Tablet*/
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 16px;
+  }
+
+}
+
+/*Mobile*/
+
+@media (max-width: 480px) {
+  .ContainerHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 31px 0px 0px;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    margin-top: 20px;
+
+  }
+
+  .NavBar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .
+}
